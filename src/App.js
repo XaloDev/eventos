@@ -7,6 +7,7 @@ import { Provider } from 'react-redux';
 import Login from './view/login/';
 import NovoUsuario from './view/usuario-novo'; 
 import Home from './view/home'; 
+import UsuarioRecuperarSenha from './view/usuario-recuperar-senha';
 
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
         <Route exact path='/login' component={Login} />
         <Route exact path='/novousuario' component={NovoUsuario} />
         <Route exact path='/' component={Home} />
+        <Route exact path='/recuperarsenha' component={UsuarioRecuperarSenha} />
+
       </Router>
     </Provider>
   );

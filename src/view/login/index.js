@@ -39,6 +39,7 @@ function Login(){
 
             <form className="form-signin mx-auto">
             <div className="text-center mb-4">
+            <i className="fab fa-xing text-white fa-5x"></i>
             <h1 className="h3 mb-3 font-weight-normal text-white font-weight-bold">Login</h1>
             </div>
         
@@ -57,7 +58,7 @@ function Login(){
             </div>
 
             <div className="opcoes-login mt-5 text-center">
-                <a href="#" className="mx-2">Recuperar Senha</a>
+                <Link to ='recuperarsenha' className="mx-2">Recuperar Senha</Link>
                 <span className="text-white">&#9733;</span>
                 <Link to ='novousuario' className="mx-2">Quero Cadastrar</Link>
             </div>
